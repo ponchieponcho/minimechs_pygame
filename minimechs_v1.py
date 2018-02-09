@@ -51,9 +51,8 @@ def main():
 
 
         # Game display
-        screen.blit(mech1, (150, 240)) # x  higher=right , y - higher=down
+        screen.blit(mech1, (0, 0))
         screen.blit(mech2, (600, 230))
-
 
         pygame.display.update()
         clock.tick(60)
